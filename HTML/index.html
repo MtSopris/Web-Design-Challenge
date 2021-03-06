@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>City Max Temp</title>
+    <title>Weather Analysis</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -21,6 +21,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Tindex.html">Home</a>
+          </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="comparisons.html">Comparisons</a>
                     </li>
@@ -34,7 +37,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="cloud_cover.html">Cloud Cover</a></li>
-                            <!-- <li><a class="dropdown-item" href="city_max_temp.html">City Max Temperture</a></li> -->
+                            <li><a class="dropdown-item" href="city_max_temp.html">City Max Temperture</a></li>
                             <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
                             <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
                         </ul>
@@ -56,21 +59,32 @@
             <div class="col-md-8">
                 <div class='box1'>
                     <header>
-                        <h3>Summary: Latitude vs. Maximum City Temp</h3>
+                        <h3>Summary: Latitude vs. X</h3>
                     </header>
                     <hr class="dotted">
-                    <div class="row">
-                        <div class="col-12"></div>
-
-                        <img src="../assets/images/lat_max.png" alt="lat_max"
-                            style='width:80%;height: auto; margin-left: 10%;margin-bottom: 5%;'>
-                        <p>
-                            <h9>This graph displays daily temperatures for 620 cities worldwide. Upon reviewing the cities by their latitude, it was observed that cities located between the Tropic of Cancer and Capricorn tend to have the highest daily temperatures.</h9>
-                        </p>
-                        
-                    </div>
+                    <img src="../assets/images/lat_max.png" alt="lat_max" style='width:35%;
+            height: auto; float: left; margin-right: 5%' ;>
+                    <p>
+                        <h9>Within this analysis we look into how weather is affected by latitude as it relates to the
+                            to the equator. Utilizing OpenWeathermap API over 500 cities are reviewed from the data
+                            collected.</h9>
+                    </p>
+                    <!-- <br>
+               <br> -->
+                    <p>
+                        <h9> With the assistance of Matplotlib a verity of plots have been created to better understand
+                            the data we have collected as it applies to latitude. Several variables have been considered
+                            such as temperature, cloud density, wind and relative humidity. This site includes the
+                            source data and visual rendering complied during the analysis. These aspects also include
+                            conclusions form our findings.
+                        </h9>
+                    </p>
                 </div>
+
+                <!-- This is column 1 of 3 -->
             </div>
+
+            <!-- One third of screen (4/12) -->
             <div class="col-md-4">
                 <div class='box2'>
                     <header>
@@ -112,3 +126,5 @@
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
 </body>
+
+</html>

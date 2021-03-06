@@ -27,7 +27,6 @@ body {
 }
 
 .box2 {
-    height: 300px;
   padding: 20px;
   background: rgb(228, 235, 236);
   margin-left: 5%;
@@ -47,4 +46,9 @@ header {
 
 p {
     text-indent: 5%;
+}
+
+.graph {
+    width: 100%;
+    padding: 5%;
 }
