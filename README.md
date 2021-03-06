@@ -6,3 +6,4 @@ Landing page - that summarizes the site and has links to the individual visualiz
 Comparison page – displays all of the visualizations together and includes links to the detailed induvial visualizations through the images
 Data page – this reference page displays the data used for the analysis
 Plot pages – each page includes that specific analysis and the conclusions found in that analysis. These pages are accessible through image links or a dropdown menu in the navigation bar.
+Lastly included is the python code for the collection of the data into the table.html.
